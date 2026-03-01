@@ -113,7 +113,7 @@ TableReport(X)
 # Do you see a special value that could represent missing data?
 
 # %% [markdown]
-# ## Question 5: What is the most common answer to "How much do you identify as a Midwesterner"?
+# ## Question 5: What is the most common answer to "How much do you personally identify as a Midwesterner"?
 #
 # Let's explore this important feature.
 

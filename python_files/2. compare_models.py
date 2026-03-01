@@ -76,7 +76,7 @@ model_gb
 # To fairly evaluate each model, we use **cross-validation**.
 # This means we train and test the model on different parts of the data multiple times, so we can see how well it generalizes.
 #
-# We use `cross_val_score` to get the score for every fold in cross validation.
+# We use `cross_val_score` to get the score for every fold in cross-validation.
 
 # %%
 from sklearn.model_selection import cross_val_score
@@ -115,7 +115,7 @@ report.metrics.summarize(pos_label="North Central").frame()
 # %% [markdown]
 # ## Question 7: Which model has the best practical application?
 #
-# Let's say that it costs 10 to do a false positive error, while it costs 1 to do a false negative error. Correctly predicting a positive example gains 5, while correctly predicting a negative example gains 2. 
+# Let's say that it costs 10 to make a false positive error, while it costs 1 to make a false negative error. Correctly predicting a positive example gains 5, while correctly predicting a negative example gains 2.
 
 # %%
 
@@ -129,7 +129,7 @@ report.metrics.summarize(pos_label="North Central").frame()
 #
 # A big gap between the two means the model is **overfitting**.  
 #
-# We don't want to do this only once, but several times. Use cross validation for that. You can either use cross validation from scikit-learn, or the CrossValidationReport from skore.
+# We don't want to do this only once, but several times. Use cross-validation for that. You can either use cross-validation from scikit-learn, or the CrossValidationReport from skore.
 
 # %%
 
